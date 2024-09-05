@@ -58,6 +58,19 @@ body {
 #gtco-main-nav {
   padding: 20px 0;
 }
+
+#gtco-main-nav .bar1,
+#gtco-main-nav .bar2,
+#gtco-main-nav .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: black !important ;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: block;
+  position: relative;
+}
+
 #gtco-main-nav .navbar-brand {
   font-size: 36px;
   font-family: "Lato-Black";
